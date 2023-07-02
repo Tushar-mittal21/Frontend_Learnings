@@ -1,0 +1,25 @@
+.card {
+    height: 287px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px black;
+    transition: .5s;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+img {
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+}
+
+.desc {
+    padding: 0 5px 0 5px;
+}
+
+.card:hover {
+    box-shadow: 4px 8px 16px goldenrod;
+}

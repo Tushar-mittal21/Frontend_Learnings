@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)),
+                      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, p {
+    margin: 0.5em auto;
+    text-align: center;
+    color: #f3f3f3;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+p {
+    font-weight: lighter;
+}
+
+form {
+    width: 100vw;
+    margin: 0 auto;
+    max-width: 720px;
+    min-width: 540px;
+    background-color: #1B1B32CC;
+    color: #f3f3f3;
+    border-radius: 5px;
+    padding: 2.5rem;
+    padding-top: 1rem;
+    font-size: large;
+    
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+
+/* .block {
+    display: block;
+} */
+
+/* .box {
+    margin: 0;
+} */
+
+input[name="recommend"], input[name="skills"] {
+    vertical-align: text-top;
+}
+
+textarea {
+    display: block;
+}
+/* .inline {
+    display: inline;
+} */
